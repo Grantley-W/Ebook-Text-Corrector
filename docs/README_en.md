@@ -154,9 +154,12 @@ Estimated time improvement: **>10x** compared to naive serial processing.
 
 ```
 ebook-ocr-corrector/
-├── main.py                              # CLI entry point (argument parsing, progress display, 5-stage orchestration)
+├── main.py                              # CLI entry point
 ├── requirements.txt                     # Dependencies
 ├── .corrector_cache/                    # Cache directory (auto-created)
+├── docs/                                # Documentation
+│   ├── README_en.md                     # English documentation
+│   └── README_zh.md                     # Chinese documentation
 ├── ebook_corrector/                     # Core module package
 │   ├── __init__.py                      # Package init
 │   ├── config.py                        # Global config, LLM prompts, correction rules

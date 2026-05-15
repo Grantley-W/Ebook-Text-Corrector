@@ -166,6 +166,9 @@ ebook-ocr-corrector/
 ├── main.py                              # CLI 入口（参数解析、进度显示、5 阶段编排）
 ├── requirements.txt                     # 依赖管理
 ├── .corrector_cache/                    # 缓存目录（自动创建）
+├── docs/                                # 文档目录
+│   ├── README_en.md                     # 英文文档
+│   └── README_zh.md                     # 中文文档
 ├── ebook_corrector/                     # 核心模块包
 │   ├── __init__.py                      # 包初始化
 │   ├── config.py                        # 全局配置、LLM 提示词、纠错规则
